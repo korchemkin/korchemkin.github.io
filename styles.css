@@ -96,3 +96,11 @@ p{
 	}
 }
  
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: linear-gradient(90deg, #f39c12, #e67e22);
+    transition: transform .5s ease-in-out;
+    border-radius: 50%;
+}
