@@ -103,4 +103,5 @@ p{
     background-image: linear-gradient(90deg, #f39c12, #e67e22);
     transition: transform .5s ease-in-out;
     border-radius: 50%;
+    display: none;
 }
