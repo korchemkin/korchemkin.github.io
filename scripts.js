@@ -8,7 +8,7 @@
   }
 
   Ball.prototype.move = function(event) {
-    console.log(event);
+    console.log(event.target.pageX, event.target.pageY);
   };
 
   var ball = new Ball();
