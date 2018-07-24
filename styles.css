@@ -20,9 +20,15 @@ html, body{
     font-family:Helvetica,sans-serif;
     font-size:15px;
     background: #25aaba;
-    background:linear-gradient(180deg,#3498db,#1abc9c);
+
+    background-image: linear-gradient(-45deg, #3498db, #1abc9c, #c0392b, #d35400);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+    
     display:flex;
-    align-items:center;
+    align-items:flex-end;
     justify-content:center
 }
 footer,header,section{
@@ -53,5 +59,41 @@ h1 small{
 }
 p{
     margin-bottom:.75em
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
  
