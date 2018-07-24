@@ -27,7 +27,8 @@ body {
     animation: Gradient 15s ease infinite;
     display:flex;
     align-items:center;
-    justify-content:center
+    justify-content:center;
+    text-align: center;
 }
 footer,header,section{
     display:block;
